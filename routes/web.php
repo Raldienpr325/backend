@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+
+//buat halaman authors admin
+Route::resource('admin/authors', AuthorController::class);
+
+//buat halaman news admin
+Route::resource('admin/news', NewsController::class);
+
+// Route::get('/welcome', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
     return view('user/index');
 });
-Route::get('/home', function () {
-    return view('home');
-});
-Route::resource('/authors1','Authors1Controller'); //-> nama controller
+// Route::get('/home', function () {
+//     return view('home');
+// });
+// Route::resource('/authors1','Authors1Controller'); //-> nama controller
