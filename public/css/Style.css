@@ -1,0 +1,232 @@
+header {
+    height: 150px;
+}
+
+.header2 {
+    width: 1500px;
+    height: 200px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+body {
+    background-color: olivedrab;
+    text-align: center;
+    font-family: Verdana, Tahoma, Helvetica;
+    font-size: 12px;
+}
+
+.judul {
+    color: white;
+    position: absolute;
+    bottom: 450px;
+    left: 420px;
+    font-size: 90px;
+}
+
+section {
+    width: 100%;
+    border-style: above;
+    height: 900px;
+}
+
+.kiri {
+    width: 20%;
+    height: 130%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    float: left;
+    position: relative;
+    top: -3.5%;
+    margin-left: -0.75ch;
+}
+
+#menu {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    float: left;
+    padding: 12px 20px;
+    text-decoration: none;
+    background: #bc9d64;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: black;
+}
+
+.tengah {
+    width: 60%;
+    height: 130%;
+    background-color: #d4d4d4;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    position: relative;
+    left: 20%;
+    top: -3.5%;
+    float: center;
+}
+
+.kanan {
+    width: 20%;
+    height: 130%;
+    border-left: 1px solid white;
+    float: right;
+    position: relative;
+    top: -133.75%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    margin-right: -0.75ch;
+}
+
+.kategori {
+    text-align: center;
+    font-family: Verdana, Tahoma, Helvetica;
+    font-size: 15px;
+    float: left;
+    margin-left: 5vh;
+}
+
+.gambardepan {
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+
+.berita {
+    float: left;
+    height: 220px;
+    width: 350px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+.gambargif {
+    height: 65px;
+    width: 500px;
+}
+
+.text {
+    position: relative;
+    color: black;
+    margin-right: 10px;
+    margin-left: 3px;
+    padding: 1px;
+    border: 3px solid white;
+    height: 20%;
+}
+
+footer {
+    position: relative;
+    top: -1200px;
+    height: 145px;
+    text-align: center;
+    clear: both;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.label {
+    height: 24px;
+    width: 24px;
+    background-color: #111;
+    display: flex;
+    position: center;
+}
+
+#dark-mode {
+    background-color: black;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+#wrapper {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: #E4E4E4;
+    border-radius: 5px;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    width: 409px;
+    border: 1px solid #0988A9;
+    border-radius: 3px;
+}
+
+.searchq {
+    width: 209px;
+}
+
+.bracket {
+    color: #0988A9;
+}
+
+#button {
+    display: inline-block;
+    background-color: #0988A9;
+    color: #ffffff;
+    padding: 6px 45px;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    border: 1px solid #0988A9;
+    border-radius: 3px;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+ol li {
+    padding: 5px;
+    color: #000;
+}
+
+ol li:nth-child(even) {
+    background: #63cdda;
+}
+
+li:hover {
+    cursor: pointer;
+}
