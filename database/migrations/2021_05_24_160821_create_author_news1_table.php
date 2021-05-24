@@ -20,7 +20,6 @@ class CreateAuthorNews1Table extends Migration
             ->onDelete('cascade');
             $table->foreign('news1_id')->references('id')->on('news1')
             ->onDelete('cascade');
-            $table->timestamps();
         });
     }
 

@@ -15,10 +15,11 @@ class CreateAuthors1Table extends Migration
     {
         Schema::create('authors1', function (Blueprint $table) {
             $table->id();
-            $table->string('nama',100);
-            $table->string('picture',255);
+            $table->string('name', 100);
+            $table->string('picture', 255);
             $table->text('address');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
